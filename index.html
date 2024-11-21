@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetTracker</title>
+    <link rel="stylesheet" href="styles.css" type="stylesheet">
+</head>
+<body>
+    <h1>Budget Tracker</h1>
+
+    <div id="input-field">
+        <h2>Income</h2>
+        <input type="text">
+        <button>+Add</button>
+    </div>
+
+    <div id="expenses-field">
+        <h2>Expenses</h2>
+        <form>
+            <label>Expense Name</label>
+            <input type="text" id="expenses-name">
+            <label>Expense Amount</label>
+            <input type="text" id="expenses-amount">
+            <button id="expenses-btn">+Add</button>
+        </form>
+    </div>
+
+    <div id="budget-section">
+        <h2>Budget Sheet</h2>
+        <h3>Income: $3000</h3>
+        <div class="budget-expense">
+            <p>Expense Name:</p>
+            <p>Expense Amount:</p>
+            <button id="del-budget-line">-Delete</button>
+        </div>
+        <div class="budget-expense">
+            <p>Expense Name:</p>
+            <p>Expense Amount:</p>
+            <button id="del-budget-line">-Delete</button>
+        </div>
+        <div class="budget-expense">
+            <p>Expense Name:</p>
+            <p>Expense Amount:</p>
+            <button id="del-budget-line">-Delete</button>
+        </div>
+    </div>
+
+</body>
+</html>
