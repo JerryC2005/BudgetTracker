@@ -1,11 +1,29 @@
+
+
 @mixin avgFlex (){
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+@mixin inputMargin($num) {
+    margin: $num;
+}
+
+* {
+    margin: 0;
 }
 
 body {
     margin: 0;
     @include avgFlex();
-    
 }
+
+#income-field {
+    @include avgFlex();
+
+   & button, h2, p, input {
+        @include inputMargin(.5rem);
+    }
+} 

@@ -1,6 +1,19 @@
+* {
+  margin: 0;
+}
+
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#income-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#income-field button, #income-field h2, #income-field p, #income-field input {
+  margin: 0.5rem;
 }/*# sourceMappingURL=styles.css.map */
