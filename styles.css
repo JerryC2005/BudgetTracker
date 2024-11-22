@@ -1,1 +1,6 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */

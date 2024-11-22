@@ -1,0 +1,11 @@
+@mixin avgFlex (){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    @include avgFlex();
+    
+}
